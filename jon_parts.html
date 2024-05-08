@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<!--
+       
+    Author: Jaisung Singh Lidder
+    ID: T00710750
+   -->  
+   
+   <title> Jon's Parts </title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="mg_reset.css">
+   <link rel="stylesheet" href="jon_parts_styles.css">
+   <link rel="stylesheet" href="jon_parts_layout.css">
+   <script src = "FAQ.js" defer></script>    
+   <script src = "pricing.js" async></script>
+   <script src = "modify.js" defer></script> 
+</head>
+
+<body>
+<header>
+	<div class="row">
+		<div class ="col-3-4">
+		<h1> Jon's Auto Shop Parts </h1>
+		</div>
+		<div class ="col-1-4">
+		<div id = "jon_logo"> 
+		<img src = "jon_logo.png" alt= "jon_company_image">
+		</div>
+		</div>
+	</div>
+</header>
+
+
+<nav class = "horizontalNav"> 
+
+<ul>
+		<li><a href="index.html">Home</a></li>
+        <li><a href="jon_parts.html">Online Store</a></li>
+        <li><a href="companies.html">Companies</a></li>
+        <li><a href="mg_FAQ.html">FAQ</a></li>
+        <li><a href="mg_contact_us.html">Contact Us</a></li>
+</ul>
+
+</nav>
+
+<div class = "row">
+	<div class = "col-1-1">
+	<h1>Tires</h1>
+	</div>
+	<div class = "col-1-1">
+	<div class = "col-1-4">
+	<div>
+	<img src = "Honda_Civic_Wheels.png" alt= "tire_image" id="product">
+	</div>
+	<p> Honda Civic Tire Wheels </p>
+	</div>
+
+	<div class = "col-1-4">
+	<div>
+	<img src = "Toyota_Corolla.png" alt= "tire_image" id="product">	
+	</div>
+	<p> Toyota Corolla Tire Wheels </p>
+</div>
+
+<div class = "row">
+	<div class = "col-1-1">
+	<h1> Pistons </h1>
+	</div>
+	<div class = "col-1-4">
+	<img src = "Piston.png" alt= "tire_image" id="product">
+	<p> Tenneco Flat Top Piston </p>
+	</div>
+	<div class = "col-1-1">
+	<h1> Brake Pads </h1>
+	</div>
+	<div class = "col-1-4">
+	<img src = "brake_pads.png" alt= "tire_image" id="product">
+	<p> Akebono Brake Pads </p>
+	</div>
+</div>
+
+
+<div class ="row">
+	<div class = "col-1-1">
+	<h1> Cart </h1>
+	</div>
+	<!--<div class = "col-1-3">
+	<div class = "placeholder">
+	<p> You're not going to see this </p>
+	</div>-->
+	</div>
+	<div class = "col-1-1">
+	<section id="orderSection">
+      <form id="orderForm" name="orderForm" method="get" action="card_info.html">
+        
+        <table id="orderTable">
+           <caption>Product Order</caption>
+           <tr>
+              <td>
+                 <label for="model">Model</label>
+                 <select name="model" id="model">
+                    <option value="492.05">Honda Civic Tire Wheels</option>
+                    <option value="450.25" selected>Toyota Corolla Tire Wheels</option>
+                    <option value="168.15">Tenneco Flat Top Piston</option>
+					<option value="182.25">Akebono Brake Pads</option>
+                 </select>   
+                 <input type="hidden" id="modelName" name="modelName" />
+              </td> 
+              <td class="rightA">
+                 <label for="qty">Qty</label>
+                 <select name="qty" id="qty">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option><option value="3">3</option>
+                    <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                    <option value="7">7</option><option value="8">8</option><option value="9">9</option>
+                    <option value="10">10</option>
+                 </select>   
+              </td>                 
+              <td>
+                 <input type="text" name="initialCost" id="initialCost" size="10" readonly />
+              </td>
+           </tr>
+           <tr>
+              <td colspan="2" class="rightA">Subtotal</td>
+              <td class="outcell">
+                 <input type="text" name="subtotal" id="subtotal" size="10" readonly />
+              </td>
+           </tr>
+
+           <tr>
+              <td colspan="2" class="rightA">Tax (5%)</td>
+              <td>
+                 <input type="text" name="salesTax" id="salesTax" size="10" readonly />
+              </td>
+           </tr>
+
+           <tr>
+              <td colspan="2" class="rightA">TOTAL</td>
+              <td>
+                 <input type="text" name="totalCost" id="totalCost" size="10" readonly />
+              </td>
+           </tr>
+        </table>
+		<button type="submit">Buy Now</button>
+      </form>
+   </section>
+</div>
+
+<footer>
+
+<div id = footer>
+<h1>PARTS</h1>
+      <a href="#">Wheels</a> <a href="#">Engine Parts</a> <a href="#">Electronics</a> <a href="#">Brakes</a> <br>
+</div>
+
+<div id = footer>
+<h1>FEATURED COMPANIES</h1>
+	  <a href="#">Jon's Auto Shop</a> <a href="#">Auto Tech Pro</a>
+<h1>POLICIES</h1>
+<a href="#">Privacy Policy</a>
+</div>
+
+<div id = footer>
+<h1>POTENTIAL DAMAGES </h1>
+	  <a href="#">Damage Responsibility</a> <a href="#">ICBC Policy</a>
+<h1 id = "update"></h1>
+</div>
+
+<div id = footer>
+<h1>CUSTOMER SERVICE </h1>
+	  <a href="#">FAQ</a> <a href="#">Contact Us</a> <a href="#">Carfax</a>
+<h1>Insurance </h1>
+<a href="#">Plans</a>
+</div>
+
+<div id = footer>
+<address>
+<div>
+MechanGO 
+</div>
+<div>
+521 Real Street 
+</div>
+<div>
+Kamloops, BC  12014 
+</div>
+<div>
+(250) 555 - 7499
+</div>
+</address>
+</div>
+
+</footer>
+
+</body>
+
+</html>

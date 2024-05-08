@@ -1,0 +1,299 @@
+html
+{
+	width:100%
+}
+body
+{	
+	margin: 0 auto;
+	width: 90%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/* Headers */ 
+
+header h1 
+{
+	padding:0.2em;
+}
+
+h1 {
+	padding:0.1em;
+}
+
+/* Grid Layout */
+
+div.row {
+   clear: both;
+}
+
+div.row::after {
+   clear: both;
+   content: "";
+   display: table;
+}
+
+div[class^="col-"] {
+
+   float: left;
+   border-top:0.05em solid black;
+   border-right:0.05em solid black;
+   border-left:0.05em solid black;
+}
+
+
+div.col-1-1 {width: 100%;}
+div.col-1-2 {width: 50%;}
+div.col-1-3 {width: 33.33%;}
+
+div.col-2-3 {width: 66.67%;}
+div.col-1-4 {width: 25%;}
+div.col-3-4 {width: 75%;}
+
+
+/* Nav */
+
+.horizontalNav
+{
+	width:100%;
+	overflow: hidden;
+	padding:1em;
+}
+
+
+.horizontalNav li {
+   display: inline-block; 
+   float: left;
+   width:20%;
+   font-size: 1.2em;
+   float: left;
+   text-align:center;
+   
+}
+
+.horizontalNav a {
+   display: inline-block;
+   text-align: center;  
+}
+
+/* Footer */
+
+#footer 
+{
+	width:19%;
+	display:inline-block;
+	padding:1.5em;
+}
+
+footer 
+{
+	clear:both;
+	display:block;
+}
+
+footer a {
+   display: block;
+   color:rgb(244,253,255);
+   text-decoration: none;
+   font-size: 0.9em;
+}
+
+footer h1 
+{	
+
+	display:inline-block;	
+}
+
+#footer a
+{
+	text-align:center;
+	margin:0;
+	text-align:justify;
+}	
+
+#footer h1
+{
+	text-align:center;
+	text-align:justify;
+	
+
+}
+
+/* Address */
+
+address
+{
+	font-size:1.0em;
+	line-height:2em;
+	color:rgb(244,253,255);
+}
+
+/* Carts */
+
+div.cart form
+{
+	
+	margin-left:0;
+	margin-right:0;
+} 
+
+#orderSection
+{
+	text-align:center;
+	margin-left:0;
+	margin-right:0;
+}
+
+#orderForm
+{
+	display:block;
+	margin-left:0;
+	margin-right:0;
+	width:100%;
+}
+
+
+
+#orderTable
+{
+	display:block;
+	margin-left:0;
+	margin-right:0;
+	width:100%;
+}
+
+form#orderForm fieldset label {
+   display: block;
+   
+}
+
+form#orderForm input#buttonAdd {
+   display: block;
+   background-color: rgba(232, 218, 201, 0.8);
+   text-align:center;
+   margin-left:0;
+   margin-right:0;
+   font-size: 1.3em;
+   border-radius: 1.2em;
+}
+
+/* Order Table Styles */
+
+table#orderTable {
+   margin: 0.8em;
+   width: 95%;
+   border-collapse: collapse;
+}
+
+form#orderForm fieldset {
+   border: none;
+   margin-left: -1em;
+}
+
+form#orderForm input[type="text"] {
+   /*background-color: rgba(240, 233, 222, 0.5);*/
+}
+
+table#orderTable caption {
+   font-size: 1.3em;
+   font-weight: bold;
+   letter-spacing: 0.2em;
+   text-align: left;
+   caption-side: top;
+   margin-bottom: 20px;
+}
+
+
+table#orderTable td {
+   height: 30px;
+   vertical-align: top;
+}
+
+form#orderForm input#orderDate {
+   text-align: left;
+}
+
+form#orderForm input[type="text"] {
+   color: black;
+}
+
+form#orderForm select {
+   display: inline-block;
+   margin-left: 1.0em;
+}
+
+table#orderTable td.rightA {
+   color:rgb(244,253,255);
+}
+
+table#orderTable label
+{
+	color:rgb(244,253,255);
+}
+
+table#orderTable caption
+{
+	color:rgb(244,253,255);
+}
+
+
+form#orderForm fieldset label {
+   display: block;
+}
+
+form#orderForm input#buttonAdd {
+   display: block;
+   width: 6em;
+   height: 1empx;
+   margin: 1.2em auto;
+   background-color: rgba(232, 218, 201, 0.8);
+   font-size: 1.3em;
+   border-radius: 1.1em;
+}
+
+form#orderForm 
+{
+	width:41%;
+	margin:auto;
+	
+}
+
+section#orderSection 
+{	
+	margin:auto;
+	text-align:center;
+	text-align:justify;
+	margin:0;
+}
+
+
+form#orderForm input#buttonAdd {
+   display: block;
+   width: 6em;
+   height: 1empx;
+   margin: 1.2em auto;
+   background-color: rgba(232, 218, 201, 0.8);
+   font-size: 1.3em;
+   border-radius: 1.1em;
+}
+
+/* Footer Styles */
+
+footer {
+   width: 100%;
+}
+
+footer p {
+   color: rgb(211, 211, 211);
+   font-size: 0.9em;
+   text-align: center;
+   background-color: rgb(122, 90, 53);
+   margin: 0px;
+   padding: 10px 0px;
+}
+/*
+.placeholder
+{ 
+visibility: hidden;
+
+} */

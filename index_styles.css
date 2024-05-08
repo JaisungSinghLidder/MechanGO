@@ -1,0 +1,129 @@
+html
+{
+	background-color:rgb(153,192,227);
+}
+
+body
+{
+	background-color: rgb(39,62,135);
+	font-family: "century gothic", san-serif;
+}
+/*Below fufills requirment 5.2(a) */
+
+p
+{
+	line-height:2;	
+	color:rgb(244,253,255);	
+	font-size:0.9em;
+	padding:1.0em;
+}
+
+/* headers */
+
+#title 
+{
+	color:rgb(244,253,255); /* Below fulfills requirement 5.2(c) */
+	text-align:center;
+	font-size:4em;	
+	padding:1.0em;
+}
+
+header
+{
+	background-color: rgb(86,114,238);
+}
+
+video 
+{
+	width:50%;
+	height:20em;
+	text-align:justify;
+	padding-left:17em;
+	padding-right:17em;
+}
+
+/* Div Img */
+
+
+div.col-1-4 img 
+{
+	display:block;
+	background-size: cover;
+	min-height:100px;
+}
+
+
+/* Nav */
+
+.horizontalNav a:link /*This fulfills  5.2(d) */
+{
+	color:rgb(244,253,255);
+}
+
+
+.horizontalNav a:visited 
+{
+   color:rgb(244,253,255);
+}
+
+.horizontalNav a:hover
+{
+	color: rgb(255, 0, 0) ;
+	text-decoration: underline; 
+}
+
+
+.horizontalNav a:active 
+{
+   color: rgb(255, 0, 0);
+}
+
+
+#footer  a:link
+{
+	color:rgb(244,253,255);
+}
+
+
+#footer  a:visited 
+{
+   color:rgb(244,253,255);
+}
+
+#footer a:hover
+{
+	color: rgb(255, 0, 0) ;
+	text-decoration: underline; 
+}
+
+
+#footer  a:active 
+{
+   color: rgb(255, 0, 0);
+}
+
+/* Div */
+
+div h1 
+{
+	color:rgb(244,253,255);
+	text-align:center;
+	font-size:1.2em;
+}
+
+/* Footer */
+
+footer
+{
+	background-color:rgb(86,114,238);
+	line-height: 1.2em;
+}
+
+	
+footer h1
+{
+	color:rgb(244,253,255);
+	font-size:1em;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}

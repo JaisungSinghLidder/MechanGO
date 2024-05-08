@@ -1,0 +1,151 @@
+html
+{
+	background-color:rgb(153,192,227);
+}
+
+body
+{
+	background-color: rgb(39,62,135);
+	font-family: "century gothic", san-serif;
+}
+
+
+p
+{
+	line-height:2;
+	color:rgb(244,253,255);	
+	padding:0.1em;
+}
+
+/* headers */
+
+header h1
+{
+	color:rgb(244,253,255);
+	text-align:center;
+	font-size:4em;	
+}
+
+header
+{
+	background-color: rgb(86,114,238);
+}
+
+/* Td */
+
+td 
+{	
+	line-height:2;
+	color:rgb(244,253,255);	
+	padding:0.1em;
+}
+
+fieldset /*This fulfills 5.3(b) */
+{
+	line-height:2;
+	color:rgb(244,253,255);	
+	padding:0.1em;
+}
+/* Nav */
+
+.horizontalNav a:link
+{
+	color:rgb(244,253,255);
+	text-decoration:none;
+}
+
+
+.horizontalNav a:visited 
+{
+   color:rgb(244,253,255);
+}
+
+.horizontalNav a:hover
+{
+	color: rgb(255, 0, 0) ;
+	text-decoration: underline; 
+}
+
+
+.horizontalNav a:active 
+{
+   color: rgb(255, 0, 0);
+}
+
+
+#footer  a:link
+{
+	color:rgb(244,253,255);
+	
+}
+
+
+#footer  a:visited 
+{
+   color:rgb(244,253,255);
+}
+
+#footer a:hover
+{
+	color: rgb(255, 0, 0) ;
+	text-decoration: underline; 
+}
+
+
+#footer  a:active 
+{
+   color: rgb(255, 0, 0);
+}
+
+/*sections */
+
+section h2
+{
+	color:rgb(244,253,255);	
+	font-size:1.2em;
+	text-align:center;
+}
+
+
+/*articles*/
+article h3
+{
+	color:rgb(244,253,255);	
+	font-size:1.0em;
+	text-align:center;
+}
+
+/* href */
+
+a href
+{
+	text-align:center;
+	color:red;
+}
+
+/* Div */
+
+div h1
+{
+	color:rgb(244,253,255);
+	text-align:center;
+	font-size:2.5em;
+}
+
+/* Footer */
+
+footer
+{
+	background-color:rgb(86,114,238);
+	line-height: 1.2em;
+}
+
+	
+footer h1
+{
+	color:rgb(244,253,255);
+	font-size:1em;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+

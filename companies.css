@@ -1,0 +1,308 @@
+html
+{
+	background-color:rgb(153,192,227);
+}
+
+body
+{
+	background-color: rgb(39,62,135);
+	font-family: "century gothic", san-serif;
+}
+
+
+p
+{
+	line-height:2;
+	color:rgb(244,253,255);	
+	font-size:0.9em;
+	/*padding:1em;*/
+}
+
+/* headers */
+
+header h1
+{
+	color:rgb(244,253,255);
+	text-align:center;
+	font-size:4em;	
+}
+
+header div h1
+{
+	color:rgb(244,253,255);
+	text-align:center;
+	font-size:4em;	
+}
+
+header
+{
+	background-color: rgb(86,114,238);
+}
+
+#jon_logo img 
+{
+	display:block;
+	background-size: cover;
+	max-height:100px;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.box img
+{
+	display:block;
+	background-size: cover;
+	max-height:10px;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#default_person img 
+{
+	display:block;
+	background-size: cover;
+	height:10em;
+	/*float:center;*/
+	margin-left:auto;
+	margin-right:auto;
+	box-sizing:border-box;
+	margin: auto;
+	text-align:center;
+	padding-top:2em;
+}
+
+#default_person_pop img 
+{
+	display:block;
+	background-size: cover;
+	height:20em;
+	/*float:center;*/
+	margin-left:auto;
+	margin-right:auto;
+	box-sizing:border-box;
+	margin: auto;
+	text-align:center;
+}
+/* Div Img */
+
+
+div.col-1-4 img 
+{
+	display:block;
+	background-size: cover;
+	min-height:100px;
+}
+
+
+/* Nav */
+
+.horizontalNav a:link
+{
+	color:rgb(244,253,255);
+}
+
+
+.horizontalNav a:visited 
+{
+   color:rgb(244,253,255);
+}
+
+.horizontalNav a:hover
+{
+	color: rgb(255, 0, 0) ;
+	text-decoration: underline; 
+}
+
+
+.horizontalNav a:active 
+{
+   color: rgb(255, 0, 0);
+}
+
+
+#footer  a:link
+{
+	color:rgb(244,253,255);
+}
+
+
+#footer  a:visited 
+{
+   color:rgb(244,253,255);
+}
+
+#footer a:hover
+{
+	color: rgb(255, 0, 0) ;
+	text-decoration: underline; 
+}
+
+
+#footer  a:active 
+{
+   color: rgb(255, 0, 0);
+}
+
+
+
+table  a:link
+{
+	color:rgb(244,253,255);
+	text-decoration:none;
+}
+
+
+table  a:visited 
+{
+   color:rgb(244,253,255);
+}
+
+table a:hover
+{
+	color: rgb(255, 0, 0) ;
+	text-decoration: underline; 
+}
+
+
+table a:active 
+{
+   color: rgb(255, 0, 0);
+}
+
+/* Div */
+
+div h1 
+{
+	color:rgb(244,253,255);
+	text-align:center;
+	font-size:1.2em;
+}
+
+div h2 
+{
+	color:rgb(244,253,255);
+	text-align:center;
+	font-size:1.0em;
+}
+
+/* Buttons */
+.buttons
+{
+	
+}
+
+div #exit
+{
+  display:block;
+  background-size: cover;
+  color:rgb(244,253,255);
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(86,114,238);
+  width:100%;
+  border:none;
+  font-size:1.0em;
+  cursor: pointer;
+}
+/* Footer */
+
+footer
+{
+	background-color:rgb(86,114,238);
+	line-height: 1.2em;
+}
+
+	
+footer h1
+{
+	color:rgb(244,253,255);
+	font-size:1em;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+
+/* Label */ 
+
+legend
+{
+	color:rgb(244,253,255);
+	font-size:1em;
+	margin-top:0.5em;
+	margin-bottom:0.5em;	
+}
+
+label 
+{	
+	color:rgb(244,253,255);
+	font-size:0.9em;
+}
+
+form
+{
+	padding:2em;
+}
+
+/* Error */
+ .error-message {
+      color: red;
+ }
+ 
+/* collapsible */ 
+
+.collapsible {
+  background-color: rgb(39,62,135);
+  color: white;
+  cursor: pointer;
+  padding: 1.2em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.1em;
+}
+
+.collapsible:hover {
+  background-color: rgb(86,114,238);;
+}
+
+.content {
+  padding: 0 2em;
+  display: none;
+  overflow:scoll;
+  background-color: rgb(39,62,135);
+  max-height:10em;
+}
+
+/* Table */
+
+table 
+{
+	width:100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th 
+{
+	color:rgb(244,253,255);
+	text-align:center;
+	font-size:1.2em;
+}
+
+td
+{
+	line-height:2;
+	color:rgb(244,253,255);	
+	font-size:0.9em;
+}
+
+address
+{
+	font-size:1.0em;
+	line-height:2em;
+	color:rgb(244,253,255);
+}

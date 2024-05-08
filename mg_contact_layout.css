@@ -1,0 +1,272 @@
+html
+{
+	width:100%
+}
+body
+{	
+	margin: 0 auto;
+	width: 90%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/* Headers */ 
+
+header 
+{
+	
+}
+
+header#leftpageheader
+{
+	float: left;
+	width: 40%;
+	display: inline-block;
+	padding:1em;
+}
+
+header#centrepageheader
+{
+	float: center;
+	margin-left:auto;
+	margin-right:auto;
+	width: 20%;
+	padding:1em;
+}
+
+header#centrepageheader img { /* This fulfills 5.7(c) */
+	display:block;
+	background-size: cover;
+	float:center;
+	width: 100%;
+	max-height:100px;
+}
+
+header#centrepageheader h1 
+{
+	text-align:center;
+}
+
+
+header#rightpageheader /*This fulfills 5.2(f)*/
+{
+	clear: right;
+	float: right;
+	width: 40%;
+	display: inline-block;
+	padding:1em;
+}
+
+/* Nav */
+
+.horizontalNav
+{
+	width:100%;
+	overflow: hidden;
+	padding:1em;
+}
+
+
+.horizontalNav li {
+   display: inline-block; 
+   float: left;
+   width:20%;
+   font-size: 1.2em;
+   float: left;
+   text-align:center;
+   
+}
+
+.horizontalNav a {
+   display: inline-block;
+   text-align: center;  
+}
+
+
+.vericalNav
+{
+	width:20%;
+	overflow: hidden;
+	float:left;
+	display:inline-block;
+}
+
+
+.vericalNav li {
+   overflow:hidden;
+   display:block;
+   
+}
+
+.vericalNav a {
+   display: inline-block;
+   color:rgb(244,253,255);
+   text-align: center;
+   line-height:2em;
+   text-decoration:none;
+   font-size:0.8em;
+    
+}
+  
+/* Section */
+
+.leftSection
+{
+	overflow: hidden;
+	background:inherit;
+	float:left;
+	width:50%;
+	outline-color:black;
+	outline-style:solid;
+	outline-width:thin;
+	height:32em;
+}
+
+.rightSection
+{
+	overflow: hidden;
+	background:hidden;
+	float:right;
+	width:50%;
+	outline-color:black;
+	outline-style:solid;
+	outline-width:thin;
+	height: 32em;
+	
+}
+
+article.leftArticle
+{
+	display:inline-block;
+	overflow: hidden;
+	background:inherit;
+	float:left;
+	width:50%;
+	outline-color:black;
+	outline-style:solid;
+	outline-width:thin;
+	
+}
+
+
+
+body .leftSection .center-leftArticle
+{
+	display:inline-block;
+	overflow: hidden;
+	background:inherit;
+	float:right;
+	width:50%;
+	outline-color:black;
+	outline-style:solid;
+	outline-width:thin;
+}
+
+/* div */
+
+#email
+{
+	
+	text-align:center;
+	
+	margin-bottom:2em;
+	
+}
+
+
+#phone
+{
+	text-align:center;
+	margin-bottom:1.6em;
+}
+
+#email_image img 
+{
+	display:block;
+	background-size: cover;
+	width: 40%;
+	height:8em;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+#email_image
+{
+	margin-bottom:3em;
+}
+
+
+#phone_image img 
+{
+	display:block;
+	background-size: cover;
+	width: 40%;
+	max-height:6em;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#phone_image 
+{
+	margin-bottom:3em;
+}
+
+#footer 
+{
+	width:19%;
+	display:inline-block;
+	padding:1.5em;
+}
+
+
+/* Footer */
+
+footer 
+{
+	clear:both;
+	display:block;
+}
+
+footer a {
+   display: block;
+   color:rgb(244,253,255);
+   text-decoration: none;
+   font-size: 0.9em;
+   
+}
+
+#footer a
+{
+	text-align:center;
+	margin:0;
+	text-align:justify;
+}	
+
+#footer h1
+{
+	text-align:center;
+	text-align:justify;
+	
+
+}
+footer h1 
+{	
+	display:inline-block;	
+}
+
+/* Address */
+
+address
+{
+	font-size:1.0em;
+	line-height:2em;
+	color:rgb(244,253,255);
+}
+
+h1 {
+	padding:0.1em;
+}

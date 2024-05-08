@@ -1,0 +1,108 @@
+html
+{
+	width:100%
+}
+body
+{	
+	margin: 0 auto;
+	width: 90%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+header
+{
+	float: center;
+	width: 100%;
+	display:block;
+	padding:1em;
+}
+
+header h1 
+{
+	padding:0.2em;
+}
+
+/* Nav */
+
+
+.horizontalNav
+{
+	width:100%;
+	overflow: hidden;
+	padding:1em;
+}
+
+
+.horizontalNav li {
+   display: inline-block; 
+   float: left;
+   width:20%;
+   font-size: 1.2em;
+   float: left;
+   text-align:center;
+   
+}
+
+.horizontalNav a {
+   display: inline-block;
+   text-align: center;  
+}
+
+
+/*sections */
+
+section
+{
+	overflow: hidden;
+	background:inherit;
+	width:100%;
+}
+
+/* Footer */
+
+#footer 
+{
+	width:19%;
+	display:inline-block;
+	padding:1.5em;
+}
+
+footer 
+{
+	clear:both;
+	display:block;
+}
+
+footer a {
+   display: block;
+   color:rgb(244,253,255);
+   text-decoration: none;
+   font-size: 0.9em;
+}
+
+footer h1 
+{	
+
+	display:inline-block;	
+}
+
+#footer a
+{
+	text-align:center;
+	margin:0;
+	text-align:justify;
+}	
+
+#footer h1
+{
+	text-align:center;
+	text-align:justify;
+	
+
+}
+
+
+h1 {
+	padding:0.1em;
+}

@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<!--
+       
+    Author: Jaisung Singh Lidder
+    ID: T00710750
+   -->  
+   
+   <title> MechanGO Card Info </title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="card_info_style.css">
+   <link rel="stylesheet" href="card_info_layout.css">
+   <script src = "card_info.js" defer></script> 
+   <script src = "modify.js" defer></script> 
+</head>
+
+<body>
+
+<header>
+<div class="row">
+		<div class ="col-1-1">
+		<h1> Card Info </h1>
+		</div>
+</div>
+</header>
+
+
+<nav class = "horizontalNav"> 
+
+<ul>
+		<li><a href="index.html">Home</a></li>
+        <li><a href="jon_parts.html">Online Store</a></li>
+        <li><a href="companies.html">Companies</a></li>
+        <li><a href="mg_FAQ.html">FAQ</a></li>
+        <li><a href="mg_contact_us.html">Contact Us</a></li>
+</ul>
+
+</nav>
+
+<div class ="row">
+<div class = "info">
+<fieldset>
+	<legend>Card Info</legend>
+	    <h1>Payment Form</h1>
+      
+      <form id="order" name="order">       
+        <table id="orderTable">
+           <caption>Your Order</caption>
+           <tr>
+              <td>
+                 <input type="text" name="modelName" id="modelName" readonly  />                                                
+              </td>
+              <td>
+                 <label>Qty: </label>
+                 <input type="text" name="qty" id="qty"  readonly />  
+              </td>                 
+              <td>
+                 <input type="text" name="initialCost" id="initialCost" size="10"  readonly />
+              </td>
+           </tr>      
+           <tr>
+              <td colspan="2" class="rightA">Subtotal</td>
+              <td class="outcell">
+                 <input type="text" name="subtotal" id="subtotal" size="10" readonly  />
+              </td>
+           </tr>
+
+           <tr>
+              <td colspan="2" class="rightA">Tax (5%)</td>
+              <td>
+                 <input type="text" name="salesTax" id="salesTax" size="10" readonly  />
+              </td>
+           </tr>
+
+           <tr>
+              <td colspan="2" class="rightA">TOTAL</td>
+              <td>
+                 <input type="text" name="totalCost" id="totalCost" size="10" readonly  />
+              </td>
+           </tr>
+        </table>
+      </form>      
+
+      <form id="payment" name="payment" method="post" action="co_temp.html">         
+         <fieldset id="creditcard">
+            <legend>Credit Information</legend>
+
+            <label for="cardName">Name*</label>
+            <input name="cardName" id="cardName" required type="text" />              
+
+            <fieldset id="cards">
+               <label class="cardLabel">Credit Card*</label>
+               <label class="cardLabel">
+                  <input name="credit" value="amex" type="radio" required />
+                  <img src="co_amex.png" alt="American Express" />
+               </label>
+               <label class="cardLabel">               
+                  <input name="credit" value="discover" type="radio" />
+                  <img src="co_discover.png" alt="Discover" />
+               </label>
+               <label class="cardLabel">                  
+                  <input name="credit" value="master" type="radio"  />
+                  <img src="co_master.png" alt="MasterCard" />
+               </label>
+               <label class="cardLabel">                  
+                  <input name="credit" value="visa" type="radio"  />
+                  <img src="co_visa.png" alt="Visa" />
+               </label>
+            </fieldset>          
+
+            <label for="cardNumber">Credit Card Number*</label>
+            <input name="cardNumber" id="cardNumber" required type="text"
+                   pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$"/>
+
+            <label for="expMonth">Expiration Date*</label>
+            <select id="expMonth" name="expMonth">
+               <option value="mm">mm</option>
+               <option value="01">01</option>
+               <option value="01">02</option>
+               <option value="01">03</option>
+               <option value="01">04</option>
+               <option value="01">05</option>
+               <option value="01">06</option>
+               <option value="01">07</option>
+               <option value="01">08</option>
+               <option value="01">09</option>
+               <option value="01">10</option>
+               <option value="01">11</option>
+               <option value="01">12</option>
+            </select>
+            <span> / </span>
+            <select id="expYear" name="expYear">
+               <option value="yy">yy</option>
+               <option value="2023">2023</option>
+               <option value="2024">2024</option>
+               <option value="2025">2025</option>
+               <option value="2026">2026</option>
+               <option value="2027">2027</option>
+            </select>            
+
+            <label for="cvc">CVC*</label>
+            <input name="cvc" id="cvc" required pattern="^\d{3,4}$" type="text"/>
+         </fieldset>
+
+         <p id="footnote">* - Required Item</p>        
+         <input type="submit" id="subButton" value="Submit Payment" />
+		<div>
+		 <span id="datetime-display"></span>  <!--This fulfills 5.6(a) -->
+		</div>
+      </form>
+
+   </section>
+	</fieldset>
+</div>
+</div>
+
+<footer>
+
+<div id = footer>
+<h1>PARTS</h1>
+      <a href="#">Wheels</a> <a href="#">Engine Parts</a> <a href="#">Electronics</a> <a href="#">Brakes</a> 
+</div>
+
+<div id = footer>
+<h1>FEATURED COMPANIES</h1>
+	  <a href="#">Jon's Auto Shop</a> <a href="#">Auto Tech Pro</a>
+<h1>POLICIES</h1>
+<a href="#">Privacy Policy</a>
+</div>
+
+<div id = footer>
+<h1>POTENTIAL DAMAGES </h1>
+	  <a href="#">Damage Responsibility</a> <a href="#">ICBC Policy</a>
+<h1 id = "update"></h1>
+</div>
+
+<div id = footer>
+<h1>CUSTOMER SERVICE </h1>
+	  <a href="#">FAQ</a> <a href="#">Contact Us</a> <a href="#">Carfax</a>
+<h1>Insurance </h1>
+<a href="#">Plans</a>
+</div>
+
+<div id = footer>
+<address>
+<div>
+MechanGO 
+</div>
+<div>
+521 Real Street 
+</div>
+<div>
+Kamloops, BC  12014 
+</div>
+<div>
+(250) 555 - 7499
+</div>
+</address>
+</div>
+
+
+</footer>
+
+</body>
+
+</html>
